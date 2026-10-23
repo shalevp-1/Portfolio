@@ -26,10 +26,10 @@ export const Content: Record<Locale, SiteContent> = {
       actions: [
 
         {
-          label: 'Live Project',
-          href: 'https://dountstime.netlify.app/',
+          label: 'My Projects',
+          href: '#project',
           variant: 'forMyButton',
-          external: true
+          external: false
         },
         {
           label: 'GitHub',
@@ -183,10 +183,10 @@ export const Content: Record<Locale, SiteContent> = {
       ],
       actions: [
         {
-          label: 'לפרויקט החי',
-          href: 'https://dountstime.netlify.app/',
+          label: 'לפרויקטים שלי',
+          href: '#project',
           variant: 'forMyButton',
-          external: true
+          external: false
         },
         {
           label: 'GitHub',
@@ -212,7 +212,7 @@ export const Content: Record<Locale, SiteContent> = {
             'לוחות כושר, תרשימים והיסטוריית פעילות.',
             'חנות מוצרים עם סל קניות, תשלום והיסטוריית הזמנות.',
             'ניהול מוצרים וחידוש מלאי למנהלי המערכת.',
-            ' פרטי התחברות לחשבונות הדמו (משתמש ומנהל) זמינים בקובץ ה-README'
+            ' פרטי התחברות לחשבונות הדמו ( משתמש ומנהל ) זמינים בקובץ ה-README'
           ],
           stack: ['angular', 'typescript', 'rxjs', 'nodejs', 'express', 'mysql'],
           backgroundImage: '/assets/running-1.webp',
@@ -241,7 +241,7 @@ export const Content: Record<Locale, SiteContent> = {
             'התחברות משתמשים ועיון במבחר הסופגניות.',
             'סל קניות, תשלום ותהליך הזמנה.',
             'ניהול מוצרים ומשתמשים בממשק הניהול.',
-            ' פרטי התחברות לחשבונות הדמו (משתמש ומנהל) זמינים בקובץ ה-README'
+            ' פרטי התחברות לחשבונות הדמו ( משתמש ומנהל ) זמינים בקובץ ה-README'
           ],
           stack: ['react', 'typescript', 'nodejs', 'express', 'mysql'],
           backgroundImage: '/assets/donuts-main.png',
