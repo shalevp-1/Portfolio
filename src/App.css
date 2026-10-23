@@ -303,10 +303,13 @@
   border-color: rgba(176,203,255,.18);
   color: #fff;
 }
+
+
 .button-link.ghost {
   background: rgba(255,255,255,.7);
   border-color: rgba(101,126,182,.16);
 }
+
 
 /* ===== Skills ===== */
 .section-heading {
@@ -687,6 +690,21 @@
   background: #e8f0ff;
   color: #17243a;
 }
+.project-showcase .project-action.forMyButton,
+.project-showcase .project-action-forMyButton {
+  background: linear-gradient(135deg, #5f95f1, #3ca84e) !important;
+  border-color: transparent !important;
+  color: #fff !important;
+  box-shadow: 0 8px 20px rgba(95, 149, 241, 0.35) !important;
+}
+
+.project-showcase .project-action.forMyButton:hover,
+.project-showcase .project-action-forMyButton:hover {
+  background: linear-gradient(135deg, #4f86e8, #339343) !important;
+  border-color: transparent !important;
+  color: #fff !important;
+  transform: translateY(-1px);
+}
 
 .project-gallery {
   width: 100%;
@@ -750,6 +768,8 @@
   font-size: .78rem;
   font-variant-numeric: tabular-nums;
 }
+
+
 
 /* ===== Responsive ===== */
 @media (max-width: 920px) {

@@ -17,11 +17,11 @@ export const Content: Record<Locale, SiteContent> = {
       title: 'Shalev Peck',
       role: 'Full-Stack Developer',
       summary:
-        'Full-Stack Developer focused on building secure, practical, and scalable web applications with React, Node.js, and MySQL. My background in IT support, networking, and technical environments helps me approach software with strong debugging ability, system-level thinking, and real operational awareness.',
+        'I build web applications using React, Angular, Node.js, Express, and MySQL. My projects cover frontend development, REST APIs, database integration, authentication, and complete application workflows. My background in IT support and networking also brings hands-on troubleshooting experience and a practical approach to solving technical problems.',
       badges: [
-        'Open to junior Full-Stack, Frontend, and Backend roles',
-        'Strong troubleshooting and debugging mindset',
-        'Hands-on background across development, IT, and networking'
+        'Open to Junior Developer Opportunities',
+        'Frontend and Backend Development',
+        'IT Support and Networking Background'
       ],
       actions: [
 
@@ -49,12 +49,13 @@ export const Content: Record<Locale, SiteContent> = {
           id: 'fitrack',
           name: 'FiTrack',
           eyebrow: 'Featured Project',
-          summary: 'A full-stack fitness tracking application built with Angular, TypeScript, RxJS, Node.js, Express, and MySQL.',
+          summary: 'A full-stack fitness and workout tracking application built with Angular, TypeScript, Node.js, Express, and MySQL.',
           bullets: [
             'User registration and login, with running and strength-training workout tracking.',
             'Fitness dashboards, charts, and activity history.',
             'Product store with cart, checkout, and order history.',
-            'Admin product management and inventory restocking.'
+            'Admin product management and inventory restocking.',
+            'Demo credentials ( Admin & User ) available in the README'
           ],
           stack: ['angular', 'typescript', 'rxjs', 'nodejs', 'express', 'mysql'],
           backgroundImage: '/assets/running-1.webp',
@@ -65,8 +66,9 @@ export const Content: Record<Locale, SiteContent> = {
             { src: '/assets/Fitrack-3.png', alt: 'FiTrack store and activity screen' }
           ],
           actions: [
-            { label: 'Live application', href: 'https://fitrackfitness.netlify.app/home', variant: 'primary', external: true },
-            { label: 'GitHub repository', href: 'https://github.com/shalevp-1/FiTrack', variant: 'secondary', external: true }
+            { label: 'Live application', href: 'https://fitrackfitness.netlify.app/home', variant: 'forMyButton', external: true },
+            { label: 'GitHub repository', href: 'https://github.com/shalevp-1/FiTrack', variant: 'secondary', external: true },
+            { label: 'Detailed README with architecture, database diagrams, and project documentation', href: 'https://github.com/shalevp-1/FiTrack', variant: 'primary', external: true }
           ],
           technologiesLabel: 'FiTrack technologies',
           screenshotsLabel: 'FiTrack screenshots',
@@ -81,7 +83,8 @@ export const Content: Record<Locale, SiteContent> = {
           bullets: [
             'Authentication and donut browsing.',
             'Shopping cart, checkout, and order flow.',
-            'Administrative product and user management.'
+            'Administrative product and user management.',
+            'Demo credentials ( Admin & User ) available in the README'
           ],
           stack: ['react', 'typescript', 'nodejs', 'express', 'mysql'],
           backgroundImage: '/assets/donuts-main.png',
@@ -90,9 +93,10 @@ export const Content: Record<Locale, SiteContent> = {
             { src: '/assets/Donuts-1.png', alt: 'Donut Shop application screenshot' }
           ],
           actions: [
-            { label: 'Live application', href: 'https://dountstime.netlify.app/', variant: 'primary', external: true },
+            { label: 'Live application', href: 'https://dountstime.netlify.app/', variant: 'forMyButton', external: true },
             { label: 'Frontend repository', href: 'https://github.com/shalevp-1/Donuts_front', variant: 'secondary', external: true },
-            { label: 'Backend repository', href: 'https://github.com/shalevp-1/Donuts_Backend', variant: 'secondary', external: true }
+            { label: 'Backend repository', href: 'https://github.com/shalevp-1/Donuts_Backend', variant: 'secondary', external: true },
+            { label: 'Detailed README with architecture, database diagrams, and project documentation', href: 'https://github.com/shalevp-1/Donuts_front', variant: 'primary', external: false }
           ],
           technologiesLabel: 'Donut Shop technologies',
           screenshotsLabel: 'Donut Shop screenshots',
@@ -106,7 +110,7 @@ export const Content: Record<Locale, SiteContent> = {
       eyebrow: 'Technology Stack',
       title: 'Tools and technologies I work with',
       description:
-        'My experience covers frontend development, backend logic, databases, deployment, and broader technical tools that support practical product delivery.',
+        'My technical skills span frontend development, backend development, databases, and deployment, alongside additional tools from my broader technical background.',
       groups: [
         {
           id: 'frontend',
@@ -146,8 +150,9 @@ export const Content: Record<Locale, SiteContent> = {
           href: 'tel:0502336023'
         },
         {
-          label: 'Location',
-          value: 'Akko, Israel'
+          label: 'GitHub',
+          value: 'github.com/shalevp-1',
+          href: 'https://github.com/shalevp-1'
         }
       ],
     },
@@ -169,11 +174,11 @@ export const Content: Record<Locale, SiteContent> = {
       title: 'שליו פק',
       role: 'מפתח Full-Stack',
       summary:
-        'מפתח Full-Stack עם פוקוס על בניית אפליקציות ווב מאובטחות, פרקטיות וסקיילביליות בעזרת React, Node.js ו-MySQL. הרקע שלי ב-IT, ברשתות ובסביבות טכניות נותן לי יתרון בדיבוג, חשיבה מערכתית והבנה של איך מערכות באמת מתנהגות בעולם האמיתי.',
+        'מפתח Full-Stack שבונה אפליקציות Web באמצעות React, Angular, Node.js, Express ו-MySQL. הפרויקטים שלי כוללים פיתוח צד לקוח, בניית APIs, עבודה עם מסדי נתונים, אימות משתמשים ותהליכים מלאים באפליקציה. הרקע שלי בתמיכת IT וברשתות מחשבים מעניק לי ניסיון מעשי בפתרון תקלות ובגישה טכנית ומעשית לפתרון בעיות.',
       badges: [
 
         'פתוח למשרות ג׳וניור ב-Full-Stack, Frontend ו-Backend',
-        'גישה חזקה לפתרון תקלות ודיבוג',
+        'ניסיון בפתרון תקלות ובדיבוג',
         'רקע מעשי בפיתוח, IT ורשתות'
       ],
       actions: [
@@ -206,7 +211,8 @@ export const Content: Record<Locale, SiteContent> = {
             'הרשמה והתחברות, לצד מעקב אחר ריצה ואימוני כוח.',
             'לוחות כושר, תרשימים והיסטוריית פעילות.',
             'חנות מוצרים עם סל קניות, תשלום והיסטוריית הזמנות.',
-            'ניהול מוצרים וחידוש מלאי למנהלי המערכת.'
+            'ניהול מוצרים וחידוש מלאי למנהלי המערכת.',
+            ' פרטי התחברות לחשבונות הדמו (משתמש ומנהל) זמינים בקובץ ה-README'
           ],
           stack: ['angular', 'typescript', 'rxjs', 'nodejs', 'express', 'mysql'],
           backgroundImage: '/assets/running-1.webp',
@@ -217,8 +223,9 @@ export const Content: Record<Locale, SiteContent> = {
             { src: '/assets/Fitrack-3.png', alt: 'חנות ומסך פעילות ב-FiTrack' }
           ],
           actions: [
-            { label: 'למעבר לאפליקציה', href: 'https://fitrackfitness.netlify.app/home', variant: 'primary', external: true },
-            { label: 'מאגר GitHub', href: 'https://github.com/shalevp-1/FiTrack', variant: 'secondary', external: true }
+            { label: 'למעבר לאתר', href: 'https://fitrackfitness.netlify.app/home', variant: 'forMyButton', external: true },
+            { label: 'מאגר GitHub', href: 'https://github.com/shalevp-1/FiTrack', variant: 'secondary', external: true },
+            { label: 'README מפורט הכולל ארכיטקטורה, תרשים מסד נתונים ותיעוד הפרויקט.', href: 'https://github.com/shalevp-1/FiTrack', variant: 'primary', external: true }
           ],
           technologiesLabel: 'הטכנולוגיות של FiTrack',
           screenshotsLabel: 'צילומי מסך של FiTrack',
@@ -227,13 +234,14 @@ export const Content: Record<Locale, SiteContent> = {
         },
         {
           id: 'donut-shop',
-          name: 'חנות הסופגניות',
+          name: 'Donut Shop',
           eyebrow: 'מסחר מקוון Full-Stack',
           summary: 'אפליקציית מסחר מקוון לחנות סופגניות, שנבנתה עם React, Node.js, Express ו-MySQL.',
           bullets: [
             'התחברות משתמשים ועיון במבחר הסופגניות.',
             'סל קניות, תשלום ותהליך הזמנה.',
-            'ניהול מוצרים ומשתמשים בממשק הניהול.'
+            'ניהול מוצרים ומשתמשים בממשק הניהול.',
+            ' פרטי התחברות לחשבונות הדמו (משתמש ומנהל) זמינים בקובץ ה-README'
           ],
           stack: ['react', 'typescript', 'nodejs', 'express', 'mysql'],
           backgroundImage: '/assets/donuts-main.png',
@@ -242,9 +250,10 @@ export const Content: Record<Locale, SiteContent> = {
             { src: '/assets/Donuts-1.png', alt: 'צילום מסך של אפליקציית חנות הסופגניות' }
           ],
           actions: [
-            { label: 'למעבר לאפליקציה', href: 'https://dountstime.netlify.app/', variant: 'primary', external: true },
+            { label: 'למעבר לאתר', href: 'https://dountstime.netlify.app/', variant: 'forMyButton', external: true },
             { label: 'מאגר צד לקוח', href: 'https://github.com/shalevp-1/Donuts_front', variant: 'secondary', external: true },
-            { label: 'מאגר צד שרת', href: 'https://github.com/shalevp-1/Donuts_Backend', variant: 'secondary', external: true }
+            { label: 'מאגר צד שרת', href: 'https://github.com/shalevp-1/Donuts_Backend', variant: 'secondary', external: true },
+            { label: 'README מפורט הכולל ארכיטקטורה, תרשים מסד נתונים ותיעוד הפרויקט.', href: 'https://github.com/shalevp-1/Dounts_front', variant: 'primary', external: true }
           ],
           technologiesLabel: 'הטכנולוגיות של חנות הסופגניות',
           screenshotsLabel: 'צילומי מסך של חנות הסופגניות',
@@ -255,7 +264,7 @@ export const Content: Record<Locale, SiteContent> = {
     },
     // Skills section
     skills: {
-      eyebrow: 'סטאק טכנולוגי',
+      eyebrow: 'טכנולוגיות וכלים',
       title: 'הטכנולוגיות והכלים שאני עובד איתם',
       description:
         'הניסיון שלי כולל פיתוח frontend, לוגיקת backend, עבודה עם מסדי נתונים, דיפלוימנט וכלים טכניים שתומכים בבניית מוצרים אמיתיים.',
@@ -285,7 +294,7 @@ export const Content: Record<Locale, SiteContent> = {
       eyebrow: 'יצירת קשר',
       title: 'פתוח להזדמנויות ג׳וניור ב-Full-Stack, Frontend ו-Backend',
       description:
-        'אני מחפש הזדמנויות שבהן אוכל לתרום, להמשיך ללמוד ולצמוח כמפתח, תוך הבאת אחריות טכנית, אמינות וחשיבה פרקטית.',
+        'אני מחפש הזדמנות להשתלב בצוות פיתוח, לתרום לפרויקטים אמיתיים, להעמיק את הידע שלי ולהתפתח כמפתח.',
       items: [
         {
           label: 'מייל',
@@ -298,8 +307,9 @@ export const Content: Record<Locale, SiteContent> = {
           href: 'tel:0502336023'
         },
         {
-          label: 'מיקום',
-          value: 'עכו, ישראל'
+          label: 'GitHub',
+          value: 'github.com/shalevp-1',
+          href: 'https://github.com/shalevp-1'
         }
       ],
 
