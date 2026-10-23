@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap');
+
+:root {
+  color-scheme: light;
+  --ink-950: #0d1523;
+  --ink-850: #172235;
+  --ink-700: #263855;
+  --ink-600: #415571;
+  --ink-500: #61718b;
+  --teal-800: #294a7c;
+  --teal-700: #3c68a8;
+  --teal-500: #5f95f1;
+  --amber-500: #97bbff;
+  --coral-500: #7e8ef5;
+  --violet-500: #b09dff;
+  --font-display: 'Space Grotesk', 'Heebo', 'Manrope', 'Segoe UI', sans-serif;
+  --pointer-x: 50vw;
+  --pointer-y: 50vh;
+  --pointer-active: 0;
+  --page-background:
+    linear-gradient(130deg, rgba(255, 255, 255, 0.72), transparent 34%),
+    linear-gradient(180deg, rgba(128, 163, 235, 0.12), transparent 38%),
+    linear-gradient(90deg, rgba(154, 176, 255, 0.08), transparent 52%),
+    linear-gradient(180deg, #f6f8fd 0%, #edf2fb 44%, #f8fbff 100%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.primary {
+  background: linear-gradient(135deg, #5f95f1, #3c68a8) !important;
+  color: white !important;
+  padding: 14px 28px !important;
+  font-size: 1.05rem !important;
+  font-weight: 700 !important;
+  border-radius: 14px !important;
+  box-shadow: 0 8px 20px rgba(95, 149, 241, 0.35) !important;
+  transition: all 0.25s ease;
+}
+
+.primary:hover {
+  transform: translateY(-2px) scale(1.03);
+}
+
+.forMyButton {
+  background: linear-gradient(135deg, #5f95f1, #3ca84e) !important;
+  color: white !important;
+  padding: 14px 28px !important;
+  font-size: 1.05rem !important;
+  font-weight: 700 !important;
+  border-radius: 14px !important;
+  box-shadow: 0 8px 20px rgba(95, 149, 241, 0.35) !important;
+  transition: all 0.25s ease;
+}
+
+.forMyButton:hover {
+  transform: translateY(-2px) scale(1.03);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--page-background);
+  color: var(--ink-950);
+  font-family: 'Manrope', 'Heebo', 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+html[dir='rtl'] body {
+  font-family: 'Heebo', 'Manrope', 'Segoe UI', sans-serif;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.44), transparent 42%),
+    linear-gradient(315deg, rgba(226, 236, 255, 0.42), transparent 46%);
+  opacity: 0.8;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, rgba(98, 132, 198, 0.03) 1px, transparent 1px),
+    linear-gradient(180deg, rgba(98, 132, 198, 0.03) 1px, transparent 1px);
+  background-size: 22px 22px;
+  opacity: 0.45;
+  mask-image: linear-gradient(180deg, black, rgba(0, 0, 0, 0.16));
+}
+
+
+
+a,
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+::selection {
+  background: rgba(95, 149, 241, 0.22);
+  color: var(--ink-950);
+}
