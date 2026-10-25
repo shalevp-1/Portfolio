@@ -709,17 +709,24 @@
 .project-gallery {
   width: 100%;
   max-width: 660px;
+  min-width: 0;
   justify-self: end;
+  box-sizing: border-box;
 }
 
 .project-carousel {
   display: grid;
   width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  justify-self: stretch;
+  margin: 0;
+  box-sizing: border-box;
   overflow: hidden;
-  border: 1px solid rgba(255,255,255,.58);
+  border: 1px solid rgba(255, 255, 255, .58);
   border-radius: 10px;
   background: #101a2b;
-  box-shadow: 0 24px 56px rgba(0,0,0,.32);
+  box-shadow: 0 24px 56px rgba(0, 0, 0, .32);
 }
 .project-carousel-frame {
   position: relative;
@@ -776,20 +783,29 @@
   .contact-grid { grid-template-columns: 1fr 1fr; }
   .contact-card:first-child { grid-column: 1 / -1; }
 }
-
 @media (max-width: 900px) {
-  .project-showcase { min-height: 105svh; }
   .project-showcase-inner {
-    grid-template-columns: 1fr;
-    gap: 2.25rem;
-    padding-block: 5rem;
+    width: 100%;
+    min-width: 0;
+    grid-template-columns: minmax(0, 1fr);
+    box-sizing: border-box;
   }
+
   .project-gallery {
+    width: 100%;
+    min-width: 0;
     max-width: 680px;
-    justify-self: start;
+    justify-self: stretch;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .project-carousel {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
   }
 }
-
 @media (max-width: 860px) {
   [data-reveal='left'],
   [data-reveal='right'] { transform: translate3d(0, 24px, 0) scale(.994); }
@@ -862,3 +878,40 @@
     transition: none !important;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .project-showcase,
+  .project-showcase-inner,
+  .project-gallery,
+  .project-carousel,
+  .project-carousel-frame {
+    min-width: 0;
+    box-sizing: border-box;
+  }
+
+  .project-showcase {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+  }
+
+  .project-showcase-inner {
+    width: 100%;
+    max-width: 100%;
+    grid-template-columns: minmax(0, 1fr);
+    padding-inline: 1rem;
+  }
+
+  .project-gallery {
+    width: 100%;
+    max-width: 100%;
+    justify-self: stretch;
+    margin-inline: 0;
+  }
+
+  .project-carousel {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
